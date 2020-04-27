@@ -1,0 +1,9 @@
+/* pages/car/car.wxss */
+.car_v{
+  text-align: center;
+}
+
+.car_img{
+  width: 500rpx;
+  height: 696rpx;
+}

@@ -1,0 +1,14 @@
+<!--pages/car/car.wxml-->
+<view class="car_v">
+  <view>
+    <image class="car_img" src="/images/6.jpg"></image>
+  </view>
+ <view>
+    <text>这可能只是个广告</text>
+ </view>
+ <view>
+    <text>隔壁应该有你想要的</text>
+ </view>
+
+
+</view>

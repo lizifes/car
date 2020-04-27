@@ -1,0 +1,27 @@
+<view class="home-wrap">
+  <swiper indicator-dots="true" autoplay="true" duration="true" interval="6000">
+    <view >
+      <swiper-item>
+         <image src="../../images/11.jpg" mode="scaleToFill center" class="banner"></image>       
+      </swiper-item>
+      <swiper-item>
+          <image src="../../images/22.jpg" mode="scaleToFill center" class="banner"></image>
+      </swiper-item>
+      <swiper-item>
+          <image src="../../images/33.jpg" mode="scaleToFill center" class="banner"></image>
+      </swiper-item>
+    </view>
+  </swiper>
+  <view class="scroll-txt">
+    <text class="scroll-ads">此处有个文字公告</text>
+  </view>
+  <view class="ads-list">
+    <view class="ads-item" >
+      <image src="../../images/3.jpg" mode="heightFix" class="sub-banner"></image>
+      <image src="../../images/4.jpg" mode="heightFix" class="sub-banner"></image>
+    </view>
+  </view>
+
+  
+ 
+</view>

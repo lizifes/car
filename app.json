@@ -1,0 +1,49 @@
+{
+  "pages": [
+    
+    "pages/index/index",
+    "pages/car/car",
+    "pages/search/search",
+    "pages/user/user",
+    "pages/logs/logs"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff577",
+    "navigationBarTitleText": "惠步二手车",
+    "navigationBarTextStyle": "black"
+  },
+
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/home_unchecked.png",
+      "selectedIconPath": "images/home_checked.png"
+    },
+   
+   
+
+
+    {
+      "pagePath": "pages/search/search",
+      "text": "寻车",
+      "iconPath": "images/search_unchecked.png",
+      "selectedIconPath": "images/search_checked.png"
+    },
+    {
+      "pagePath": "pages/user/user",
+      "text": "我",
+      "iconPath": "images/user_unchecked.png",
+      "selectedIconPath": "images/user_checked.png"
+    }
+
+  ]
+   
+  },
+
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

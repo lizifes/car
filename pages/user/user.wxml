@@ -1,0 +1,60 @@
+<!--index.wxml-->
+<view class="home-wrap">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image class="userinfo-avatar" bindtap="bindViewTap" src="{{userInfo.avatarUrl}} " mode="cover"></image>
+      <view id="v1">
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text> 
+      </view>
+      
+    </block>
+  </view>
+
+ <view class="workbench">
+    <text class="title">工作台</text>
+    <view class="list">
+      <view class="items">
+        <image src="../../images/desk_publish@2x.png"></image>
+        <text>发布车源</text>
+      </view>
+      <view class="items">
+        <image src="../../images/desk_bid@2x.png"></image>
+        <text>户准寻车</text>
+      </view>
+      <view class="items">
+        <image src="../../images/desk_order@2x.png"></image>
+        <text>我的订单</text>
+      </view>
+      <view class="items">
+        <image src="../../images/desk_massage@2x.png"></image>
+        <text>通知消息</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="workbench">
+    <text class="title">服务</text>
+    <view class="list">
+      <view class="items">
+        <image src="../../images/home_car_source@2x.png" class="service-icon"></image>
+        <text>车源管理</text>
+      </view>
+      <view class="items">
+        <image src="../../images/home_logistical@2x.png" class="service-icon"></image>
+        <text>物流管理</text>
+      </view>
+      <view class="items">
+        <image src="../../images/home_finance@2x.png" class="service-icon"></image>
+        <text>车商金融</text>
+      </view>
+      <view class="items">
+        <image src="../../images/home_headlines@2x.png" class="service-icon"></image>
+        <text>车市头条</text>
+      </view>
+    </view>
+  </view>
+
+  
+
+</view>
